@@ -8,9 +8,12 @@ body {
 }
 
 h3 {
-  color: white;
   font-size: 36px;
   margin-bottom: 0;
+}
+
+h3, p {
+  color: white;
 }
 
 button {
