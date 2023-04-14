@@ -122,6 +122,7 @@ function clearScreen(aC) {
     operator = null
     num1 = ''
     num2 = ''
+    result = 0
     currentNum = 1
     updateScreenVal()
   } else if (!aC && num1 != result) {
@@ -141,3 +142,4 @@ function updateScreenVal(val = '') {
     displayScreen.innerHTML = 0
   }
 }
+
